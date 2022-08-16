@@ -1688,7 +1688,7 @@ body.dark #return-to-top:hover {
 @media (min-width: 1600px) {
   header.desktop-header {
     padding: 40px 60px;
-    width: 300px;
+    width: 305px;
   }
 
   main.content {
