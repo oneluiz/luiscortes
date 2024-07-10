@@ -87,7 +87,7 @@
                 <li class="list-inline-item"><a href="https://wa.me/50687969889" target="_blank"><i class="fa-brands fa-whatsapp whatsapp"></i></a></li>
             </ul>
             <!-- copyright text -->
-            <span class="copyright">© 2022 Luis Cortés.</span>
+            <span class="copyright">© <span id="currentYear"></span> Luis Cortés.</span>
         </div>
 
     </header>
@@ -134,7 +134,7 @@
                 <div class="row">
 
                     <div class="col-md-12">
-                        <p>Soy un diseñador gráfico y desarrollador front-end/back-end apasionado y dedicado a mi trabajo, con más de 14 años de experiencia. A lo largo de mi carrera, he adquirido las habilidades y conocimientos necesarios para garantizar que tu proyecto sea un éxito.</p>
+                        <p>Soy un diseñador gráfico y desarrollador front-end/back-end apasionado y dedicado a mi trabajo, con más de 16 años de experiencia. A lo largo de mi carrera, he adquirido las habilidades y conocimientos necesarios para garantizar que tu proyecto sea un éxito.</p>
                         <p>He desarrollado sitios web modernos utilizando lenguajes de programación de última generación y he realizado desarrollos Full Stack para ofrecer soluciones rentables y eficientes. Combino mi pasión por el diseño con tecnologías de desarrollo avanzadas, lo que ha permitido a mis clientes obtener resultados excepcionales y una experiencia de trabajo gratificante.</p>
                         <p>Además de mi experiencia profesional, tengo un gran interés en la música, la cual cultivo como hobby y que me inspira en mi trabajo diario. Creo firmemente en entregar el trabajo dentro del tiempo y presupuesto acordado, cumpliendo con todos los requisitos del cliente y superando sus expectativas. Mi objetivo es siempre proporcionar soluciones innovadoras que impulsen el éxito y la satisfacción de mis clientes.</p>
                         <div class="text-end">
@@ -1012,6 +1012,11 @@
 <script src="js/contact.js"></script>
 <script src="js/validator.js"></script>
 <script src="js/custom.js"></script>
-
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+	    var currentYear = new Date().getFullYear();
+	    document.getElementById("currentYear").textContent = currentYear;
+	});
+</script>
 </body>
 </html>
